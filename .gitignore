@@ -1,0 +1,54 @@
+# Arquivos específicos de IDEs e editores
+.gradle/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Logs
+logs/
+*.log
+
+# Cache do Micronaut
+.mn/
+
+# Arquivos de build do Gradle
+/build/
+/out/
+
+# Dependências baixadas pelo Gradle
+/.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Arquivos gerados
+/target/
+/classes/
+
+# Arquivos de configuração locais
+*.properties
+*.yml
+*.properties.example
+*.yml.example
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
+
+# Arquivos de banco de dados (SQLite, H2, etc.)
+*.db
+*.db-shm
+*.db-wal
+
+# Arquivos de imagem
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+
+# Outros arquivos binários
+*.exe
+*.dll
+*.so
+*.dylib
